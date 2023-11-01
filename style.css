@@ -1,0 +1,101 @@
+#main-menu {
+  background-color: black;
+  overflow: hidden;
+  border: 5px;
+  border-radius: 5px;
+}
+
+container {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+
+#main-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  float:left;
+  text-align: center;
+}
+
+#main-menu ul li {
+  display: block;
+  position: relative;
+  right: 50%;
+  float: left;
+}
+
+#main-menu ul li a {
+  display: block;
+  padding: 15px 10px;
+  text-decoration: none;
+  color: #DA9F0B;
+}
+
+#main-menu ul li a:hover {
+  background-color: white;
+}
+
+#main-menu ul li a:link {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: #DA9F0B;
+}
+
+body {
+  background-color: #DA9F0B;
+  font-family: "Georgia", serif;
+}
+
+section {
+  background-color: #DA9F0B;
+  width: 800px;
+  display: block;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1{
+    float: none;
+    background: ;
+    position:relative;
+    left: 5px;
+    border: 8px solid;
+    border-color:white;
+    text-align: center;
+  }
+  
+h2,h3 {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+}
+
+h4 {
+    color: white;
+}
+
+
+img {
+  width: 500px;
+  height: auto;
+  border: 5px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
