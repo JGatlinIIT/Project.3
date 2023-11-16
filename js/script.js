@@ -15,6 +15,10 @@ function initMap() {
   });
   infowindow.open(map, marker);
 
+    var features = [
+    { position: { lat: 41.71093424029786, lng: -87.67651492729557 }, type: "Sutherland" },
+  ];
+  
 for (let i = 0; i < features.length; i++) {
     const marker = new google.maps.Marker({
       position: features[i].position,
